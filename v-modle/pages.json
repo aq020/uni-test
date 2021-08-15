@@ -1,0 +1,56 @@
+{
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "text": "登录",
+        "pagePath": "pages/index/index"
+      },
+	  {
+	    "text": "登录1",
+	    "pagePath": "pages/index/v3"
+	  }
+    ],
+    "color": "#333333",
+    "selectedColor":"#007AFF"
+  
+  },
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "login"
+      }
+    },
+    {
+      "path": "pages/index/v1",
+      "style": {
+        "navigationBarTitleText": "form"
+      }
+    },
+	{
+	  "path": "pages/index/v2",
+	  "style": {
+	    "navigationBarTitleText": "radio、checkbox"
+	  }
+	},
+	{
+	  "path": "pages/index/v3",
+	  "style": {
+	    "navigationBarTitleText": "login1"
+	  }
+	},
+    {
+      "path": "pages/index/v4",
+      "style": {
+        "navigationBarTitleText": "input、textarea"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "邓振球",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

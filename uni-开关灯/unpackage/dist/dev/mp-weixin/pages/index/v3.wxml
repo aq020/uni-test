@@ -1,0 +1,1 @@
+<view id="app" class="_div"><view class="_p">点击开关灯泡</view><image src="{{src}}" width="196px" height="182px" class="_img"></image><view class="_div"><button data-event-opts="{{[['tap',[['change',['$event']]]]]}}" bindtap="__e">开关</button></view></view>

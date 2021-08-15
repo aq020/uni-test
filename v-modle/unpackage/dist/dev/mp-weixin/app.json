@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/v1",
+    "pages/index/v2",
+    "pages/index/v3",
+    "pages/index/v4"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "邓振球",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "text": "登录",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "登录1",
+        "pagePath": "pages/index/v3"
+      }
+    ],
+    "color": "#333333",
+    "selectedColor": "#007AFF"
+  },
+  "usingComponents": {}
+}

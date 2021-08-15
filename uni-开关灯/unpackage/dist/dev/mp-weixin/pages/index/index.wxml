@@ -1,0 +1,1 @@
+<view class="box _div"><image style="width:10%;" mode="widthFix" src="{{src}}"></image><switch checked="{{value}}" data-event-opts="{{[['change',[['Change',['$event']]]]]}}" bindchange="__e"></switch></view>

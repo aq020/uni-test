@@ -1,0 +1,1 @@
+<view class="box _div"><image style="width:10%;" mode="widthFix" src="{{src}}"></image><input placeholder="输入框" data-event-opts="{{[['input',[['__set_model',['','src','$event',[]]]]]]}}" value="{{src}}" bindinput="__e"/><switch data-event-opts="{{[['change',[['switchChange',['$event']]]]]}}" bindchange="__e"></switch></view>

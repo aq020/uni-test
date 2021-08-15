@@ -1,0 +1,68 @@
+{
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "text": "主页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "设置",
+        "pagePath": "pages/index/v1"
+      }
+    ],
+    "color": "#333333",
+    "selectedColor":"#007AFF"
+  
+  },
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "邓振球"
+      }
+    },
+    {
+      "path": "pages/index/v1",
+      "style": {
+        "navigationBarTitleText": "邓振球1"
+      }
+    },
+    {
+      "path": "pages/index/v2",
+      "style": {
+        "navigationBarTitleText": "邓振球2"
+      }
+    },
+    {
+      "path": "pages/index/v3",
+      "style": {
+        "navigationBarTitleText": "邓振球3"
+      }
+    },
+    {
+      "path": "pages/index/v4",
+      "style": {
+        "navigationBarTitleText": "邓振球4"
+      }
+    },
+    {
+      "path": "pages/index/v5",
+      "style": {
+        "navigationBarTitleText": "邓振球5"
+      }
+    },
+    {
+      "path": "pages/index/v6",
+      "style": {
+        "navigationBarTitleText": "邓振球6"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "邓振球",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

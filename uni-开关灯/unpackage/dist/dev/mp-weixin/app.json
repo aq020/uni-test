@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/v1",
+    "pages/index/v2",
+    "pages/index/v3"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "邓振球",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "text": ":checked&:src",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": ":src",
+        "pagePath": "pages/index/v1"
+      },
+      {
+        "text": ":checked&value",
+        "pagePath": "pages/index/v2"
+      },
+      {
+        "text": ":checked&value",
+        "pagePath": "pages/index/v3"
+      }
+    ],
+    "color": "#333333",
+    "selectedColor": "#007AFF"
+  },
+  "usingComponents": {}
+}
